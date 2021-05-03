@@ -1,0 +1,23 @@
+2021-05-03T19:02:01.035Z INFO @wdio/local-runner: Run worker command: run
+2021-05-03T19:02:01.523Z DEBUG @wdio/config:utils: Found 'ts-node' package, auto-compiling TypeScript files
+2021-05-03T19:02:01.713Z DEBUG @wdio/local-runner:utils: init remote session
+2021-05-03T19:02:03.219Z DEBUG @wdio/local-runner:utils: init remote session
+2021-05-03T19:02:03.232Z INFO devtools:puppeteer: Initiate new session using the DevTools protocol
+2021-05-03T19:02:03.233Z INFO devtools: Launch Google Chrome with flags: --enable-automation --disable-popup-blocking --disable-extensions --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-sync --metrics-recording-only --disable-default-apps --mute-audio --no-first-run --no-default-browser-check --disable-hang-monitor --disable-prompt-on-repost --disable-client-side-phishing-detection --password-store=basic --use-mock-keychain --disable-component-extensions-with-background-pages --disable-breakpad --disable-dev-shm-usage --disable-ipc-flooding-protection --disable-renderer-backgrounding --force-fieldtrials=*BackgroundTracing/default/ --enable-features=NetworkService,NetworkServiceInProcess --disable-features=site-per-process,TranslateUI,BlinkGenPropertyTrees --window-position=0,0 --window-size=1200,900
+2021-05-03T19:02:04.957Z INFO devtools: Connect Puppeteer with browser on port 54542
+2021-05-03T19:02:11.089Z INFO devtools: COMMAND navigateTo("http://google.com/")
+2021-05-03T19:02:14.103Z INFO devtools: RESULT null
+2021-05-03T19:02:14.118Z INFO devtools: COMMAND findElements("css selector", "body > div.L3eUgb > div.o3j99.ikrT4e.om7nvf > form > div:nth-child(1) > div.A8SBwf > div.RNNXgb > div > div.a4bIc > input")
+2021-05-03T19:02:14.128Z INFO devtools: RESULT [ { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-1' } ]
+2021-05-03T19:02:14.145Z INFO devtools: COMMAND findElement("css selector", "body > div.L3eUgb > div.o3j99.ikrT4e.om7nvf > form > div:nth-child(1) > div.A8SBwf > div.RNNXgb > div > div.a4bIc > input")
+2021-05-03T19:02:14.150Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-2' }
+2021-05-03T19:02:14.159Z INFO devtools: COMMAND elementClear("ELEMENT-2")
+2021-05-03T19:02:14.172Z INFO devtools: RESULT null
+2021-05-03T19:02:14.188Z INFO devtools: COMMAND elementSendKeys("ELEMENT-2", "WebdriverIO")
+2021-05-03T19:02:14.451Z INFO devtools: RESULT null
+2021-05-03T19:02:14.470Z INFO devtools: COMMAND performActions(<object>)
+2021-05-03T19:02:17.015Z INFO devtools: COMMAND releaseActions()
+2021-05-03T19:02:17.022Z INFO devtools: COMMAND getTitle()
+2021-05-03T19:02:17.026Z INFO devtools: RESULT WebdriverIO - Google'da Ara
+2021-05-03T19:02:17.039Z INFO devtools: COMMAND deleteSession()
+2021-05-03T19:02:17.042Z INFO devtools: RESULT null

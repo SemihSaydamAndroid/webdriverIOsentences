@@ -5,7 +5,7 @@ Feature:
 
   Scenario: Check title of website after search
     Given I open the url "http://google.com"
-    When I set "WebdriverIO" to the inputfield "body > div.L3eUgb > div.o3j99.ikrT4e.om7nvf > form > div:nth-child(1) > div.A8SBwf > div.RNNXgb > div > div.a4bIc > input"
+    When I set "WebdriverIO" to the inputfield "//input[@name='q']"
     And I press "Enter"
     Then I expect that the title is "WebdriverIO - Google'da Ara"
 
